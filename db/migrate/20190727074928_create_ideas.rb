@@ -3,7 +3,7 @@ class CreateIdeas < ActiveRecord::Migration[5.2]
     create_table :ideas do |t|
       t.string :name
       t.text :description
-      t.str :picture
+      t.string :picture
 
       t.timestamps
     end
